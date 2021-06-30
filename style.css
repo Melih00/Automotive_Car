@@ -1,0 +1,113 @@
+*{
+    margin : 0 ;    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body{
+    background-image: url(https://10websites-design-to-html-css.netlify.app/automotive-car-design/car-bg.jpg);
+    
+}
+
+header nav{
+    height: 83px;
+    background-color: black;
+    vertical-align: middle;
+}
+header nav li{
+    display: flex;
+    justify-content:space-between;
+    height: 100%;    
+    padding-right: 30px;
+    align-items: center;
+}
+header nav li a{
+    text-decoration: none;
+    color: white;
+}
+#hdr_appointment a{
+    padding: 10px;
+    background-color: #00c2ff;
+    
+}
+header nav ul{
+    float: right;
+    display: flex;
+    height: 100%;
+    vertical-align: middle;
+    align-items: center;
+    font-weight: 900;
+
+}
+#automative{
+    display: inline;
+    padding-left: 20px;
+}
+.logo{
+    margin: 30px 10px;
+    color: white;
+    float: left;
+    font-size: 30px;
+    align-items: center;
+    margin-left: 220px;
+    min-width: 50%;
+    padding-left: 30px;
+}
+.divbody {
+    display :inline-block;
+    padding-left: 250px;
+    padding-top:250px;
+    margin: 0 auto ;
+    max-width: 100%;
+    height :620px;
+    line-height: 50px;
+}
+ .Baslık {
+    color:#00c2ff;
+    width :500px ;
+    font-size: 45px;
+  
+ }   
+.btn{
+    background-color: #00c2ff;
+    width: 200px;
+    height :50px;
+    text-decoration: none;
+    font-size: 18px;
+    color :#fff;
+    cursor: pointer;
+}
+.Para {
+    color :#fff;
+    padding-top: 25px;
+    font-size: 22px;
+}
+
+footer {
+    color: #fff;
+    background-color: #000;
+    bottom: 0;
+}
+
+.contact{
+    width: 50%;
+    background-color: #000;
+    margin: auto;
+
+    
+}
+
+.contact div {
+    padding: 30px;
+    display: inline-block;
+}
+
+footer li {
+    list-style-type: none;
+}
+
+.contact>div li:first-child {
+    color: #00c2ff ;
+    
+}
+
